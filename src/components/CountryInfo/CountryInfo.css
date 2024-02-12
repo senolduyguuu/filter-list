@@ -1,0 +1,77 @@
+.country-info-container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #f4f4f4;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.country-info-heading {
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.country-list {
+	list-style: none;
+	padding: 0;
+}
+
+.country-item {
+	margin-bottom: 8px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 6px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.country-item:hover {
+	background-color: #f0f0f0;
+}
+
+.country-item-input {
+	margin-right: 8px;
+}
+
+.country-details {
+	display: flex;
+	flex-direction: column;
+}
+
+.show-more-button {
+	display: block;
+	margin: 15px auto;
+	/* Bu satır değiştirildi */
+	padding: 15px 35px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.show-more-button:hover {
+	background-color: #2980b9;
+}
+
+@media screen and (max-width: 768px) {
+	.country-info-container {
+		padding: 10px;
+	}
+
+	.country-info-heading {
+		font-size: 20px;
+	}
+
+	.country-item {
+		padding: 8px;
+	}
+
+	.show-more-button {
+		margin-top: 12px;
+	}
+}
